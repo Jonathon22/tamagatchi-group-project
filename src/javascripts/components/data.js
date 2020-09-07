@@ -1,6 +1,6 @@
 const tamaData = [
   {
-    title: 'Eat',
+    title: 'eat',
     privateVariable: 'Full',
     button1: 'Unhealthy',
     button2: 'Healthy',
@@ -9,7 +9,7 @@ const tamaData = [
     defaultScore: 100,
   },
   {
-    title: 'Play',
+    title: 'play',
     privateVariable: 'Fun',
     button1: 'super-fun',
     button2: 'slightly-fun',
@@ -18,7 +18,7 @@ const tamaData = [
     defaultScore: 50,
   },
   {
-    title: 'Fight',
+    title: 'fight',
     privateVariable: 'strength',
     button1: 'run-away',
     button2: 'commit-violence',
@@ -27,7 +27,7 @@ const tamaData = [
     defaultScore: 100
   },
   {
-    title: 'Sleep',
+    title: 'sleep',
     privateVariable: 'energy',
     button1: 'nap',
     button2: 'deep-slumber',

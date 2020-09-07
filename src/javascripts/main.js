@@ -1,8 +1,11 @@
+import getData from './components/data';
+import createQuad from './components/createQuad';
 import '../styles/main.scss';
 
 const init = () => {
-  $('#app').html('<h1>HELLO! You are up and running!</h1>');
-  console.log('YOU ARE UP AND RUNNING!');
+  getData.getData().forEach((Quad) => {
+    createQuad.buildQuad(Quad.title);
+  });
 };
 
 init();
