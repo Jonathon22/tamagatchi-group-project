@@ -1,6 +1,7 @@
 const tamaData = [
   {
-    title: 'Eat',
+    title: 'EAT',
+    id: '#eat',
     privateVariable: 'Full',
     button1: 'Unhealthy',
     button2: 'Healthy',
@@ -10,6 +11,7 @@ const tamaData = [
   },
   {
     title: 'Play',
+    id: '#play',
     privateVariable: 'Fun',
     button1: 'super-fun',
     button2: 'slightly-fun',
@@ -19,6 +21,7 @@ const tamaData = [
   },
   {
     title: 'Fight',
+    id: '#fight',
     privateVariable: 'strength',
     button1: 'run-away',
     button2: 'commit-violence',
@@ -28,6 +31,7 @@ const tamaData = [
   },
   {
     title: 'Sleep',
+    id: '#sleep',
     privateVariable: 'energy',
     button1: 'nap',
     button2: 'deep-slumber',
